@@ -12,3 +12,4 @@ urlpatterns = [
     path('cats/<slug:cat_slug>/', views.categories_by_slug), #http://127.0.0.1:8000/cats/slug
     path("archive/<year4:year>/", views.archiive),
 ]
+
